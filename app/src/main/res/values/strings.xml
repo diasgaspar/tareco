@@ -1,0 +1,14 @@
+<resources>
+    <string name="username_hint">Your user name goes here</string>
+    <string name="password_hint">Your password goes here</string>
+    <string name="save_credentials">Remember credentials</string>
+    <string name="action_authenticate">Authenticate</string>
+    <string name="error_invalid_credentials">Invalid Credentials</string>
+
+    <string name="app_name">tareco</string>
+    <string name="dialogTitle">Lançar os cães!</string>
+    <string name="dialogMessage">Lançar os cães pode trazer complicações</string>
+    <string name="snackbar_message">Que cão tão bonito!</string>
+    <string name="snackbar_action_thanks">Obrigadinho!</string>
+    <string name="snackbar_action_thanks_selected">snackbar_action_thanks_selected</string>
+</resources>
