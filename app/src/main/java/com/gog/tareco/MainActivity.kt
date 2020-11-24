@@ -25,6 +25,14 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        // Get the Intent that started this activity and extract the string
+        val message = intent.getStringExtra("username")
+
+        // Capture the layout's TextView and set the string as its text
+        val textView = findViewById<TextView>(R.id.tv_username).apply {
+            text = message
+        }
+
 
         findViewById<Button>(R.id.button_details).setOnClickListener{
             //openNativeCamera()
@@ -47,10 +55,12 @@ class MainActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        val intent = Intent(this, MainActivity::class.java)
+       /* val intent = Intent(this, MainActivity::class.java)
         //val intent = getIntent()
         val username = intent.getStringExtra("username")
         findViewById<TextView>(R.id.tv_username).text = "Hello $username"
+        */
+
         startCountDownTimer(untilFinished)
     }
 
