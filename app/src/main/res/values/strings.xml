@@ -11,4 +11,10 @@
     <string name="snackbar_message">Que cão tão bonito!</string>
     <string name="snackbar_action_thanks">Obrigadinho!</string>
     <string name="snackbar_action_thanks_selected">snackbar_action_thanks_selected</string>
+    <string name="tv_username">username</string>
+    <string name="bt_details">Details</string>
+    <string name="bt_alert">Alert</string>
+    <string name="bt_snackbar">SnackBar</string>
+    <string name="bt_start_timer">start timer</string>
+    <string name="iv_main_image">Main Image</string>
 </resources>
